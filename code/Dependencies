@@ -1,0 +1,13 @@
+alpha-shape.o: alpha-shape.c alpha-shape.h shape.h macros.h
+crust.o: crust.c crust.h shape.h macros.h
+delaunay.o: delaunay.c crust.h shape.h macros.h
+main.o: main.c draw.h GL/gli.h shape.h macros.h delauany.h crust.h \
+ alpha-shape.h
+shape.o: shape.c shape.h macros.h
+GL/gli.o: GL/gli.c GL/gli.h
+alpha-shape.o: alpha-shape.c alpha-shape.h shape.h macros.h
+crust.o: crust.c crust.h shape.h macros.h
+delaunay.o: delaunay.c crust.h shape.h macros.h
+alpha-shape.o: alpha-shape.c alpha-shape.h shape.h macros.h
+crust.o: crust.c crust.h shape.h macros.h
+delaunay.o: delaunay.c crust.h shape.h macros.h
